@@ -12,7 +12,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/01.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;   <audio controls><source src="./wavs/fs2-csdec/01.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;   <audio controls><source src="./wavs/fs2-cadec/01.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/01.wav" type="audio/wav"></audio>
 
@@ -22,7 +22,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/02.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/02.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/02.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/02.wav" type="audio/wav"></audio>
    
@@ -32,7 +32,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/03.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/03.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/03.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/03.wav" type="audio/wav"></audio>  
    
@@ -42,7 +42,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/04.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/04.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/04.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/04.wav" type="audio/wav"></audio>
    
@@ -52,7 +52,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/05.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/05.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/05.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/05.wav" type="audio/wav"></audio> 
    
@@ -62,7 +62,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/06.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/06.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/06.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/06.wav" type="audio/wav"></audio>   
    
@@ -74,7 +74,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/p01.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/p01.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/p01.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/p01.wav" type="audio/wav"></audio>   
    
@@ -84,7 +84,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/p02.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/p02.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/p02.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/p02.wav" type="audio/wav"></audio>    
    
@@ -94,7 +94,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/p03.wav" type="audio/wav"></audio>  
    
-   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-csdec/p03.wav" type="audio/wav"></audio>  
+   FS2-CADEC:&ensp; &nbsp;    <audio controls><source src="./wavs/fs2-cadec/p03.wav" type="audio/wav"></audio>  
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/p03.wav" type="audio/wav"></audio>     
    
