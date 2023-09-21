@@ -1,4 +1,3 @@
-theme: jekyll-theme-cayman
 title: "StyleSpeech: Self-supervised Style Enhancing with VQ-VAE-based Pre-training for Expressive Audiobook Speech Synthesis"
 description: Submitted on ICASSP 2024
 show_downloads: false
