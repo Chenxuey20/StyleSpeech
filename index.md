@@ -1,10 +1,16 @@
 
-# Abstract
+**Authors**: *Xueyuan Chen, Xi Wang, Shaofei Zhang, Lei He, Zhiyong Wu, Xixin Wu, Helen Meng*
 
-The distribution of style expression in an audiobook dataset is usually unbalanced, which brings the challenge to the modeling of style representation and the expressiveness of synthesized speech. In this paper, we propose a self-supervised style enhancing method with VQ-VAE-based pre-training for expressive audiobook speech synthesis. Firstly, a text style encoder is pre-trained with a large amount of unlabeled text-only data. Secondly, a spectrogram style extractor based on VQVAE is pre-trained in a self-supervised manner, with plenty of audio data that covers complex style variations. Then a special model architecture is designed with two encoder-decoder paths to model the pronunciation and high-level style expressiveness separately with the guidance of style extractor. Both objective and subjective evaluations demonstrate that our proposed method can significantly improve the naturalness and expressiveness of the synthesized speech in audiobook synthesis. 
+## Abstract
+
+The expressive quality of synthesized speech for audiobooks is limited by generalized model architecture and unbalanced style distribution in the training data. To address these issues, in this paper, we propose a self-supervised style enhancing method with VQ-VAE-based pre-training for expressive audiobook speech synthesis. Firstly, a text style encoder is pre-trained with a large amount of unlabeled text-only data. Secondly, a spectrogram style extractor based on VQ-VAE is pre-trained in a self-supervised manner, with plenty of audio data that covers complex style variations. Then a novel architecture with two encoder-decoder paths is specially designed to model the pronunciation and high-level style expressiveness respectively, with the guidance of the style extractor. Both objective and subjective evaluations demonstrate that our proposed method can significantly improve the naturalness and expressiveness of the synthesized speech in audiobook synthesis especially for the role and out-of-domain scenarios.
+
+## Proposed model architecture
+
+<img src="./wavs/model_architecture.png" width="100%">
 
 
-# Synthesized audio of single sentence
+## Synthesized audio of single sentence
 
 1. text：“你难道不是曾经怀孕过的女人吗？”
 
@@ -66,7 +72,7 @@ The distribution of style expression in an audiobook dataset is usually unbalanc
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/06.wav" type="audio/wav"></audio>   
    
-# Synthesized audio of short paragraph
+## Synthesized audio of short paragraph
 
 1. text：玄舞还没开口,玄迩就说话了,"姑娘,属下过来时姜公曾有吩咐,说三爷之前曾传了话,若是您今日进城见了田守一,让您想怎么办就怎么办,不必有任何顾忌。" 小暖又问, "你抓住的那几个对守一动刑的畜生呢?" "有两个在属下这里,剩下的在四皇子手中。" 玄迩答道, "因时间仓促,属下还未来得及审问。"
 
