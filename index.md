@@ -1,7 +1,7 @@
 
 <center>(Submitted on ICASSP 2024)</center>
 
-<center>**Authors**: *Xueyuan Chen, Xi Wang, Shaofei Zhang, Lei He, Zhiyong Wu, Xixin Wu, Helen Meng*</center>
+<center> <b>Authors</b>: <i>Xueyuan Chen, Xi Wang, Shaofei Zhang, Lei He, Zhiyong Wu, Xixin Wu, Helen Meng</i> </center>
 
 
 ## 1. Abstract
