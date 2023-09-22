@@ -86,7 +86,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
    
 2. text：郑副司令身后有人在他耳边耳语了几句,他听了呵呵一笑,转身对少将说，“听说九月份, 你那儿有一批人要退伍转业?”“先别着急退伍,让他们来我们军区再待两年。到时候我给他们提上两级,再转业对他们也有好处。你看看怎么样?” 少将听了微微一笑,没有丝毫犹豫就说，“没问题,他们就靠郑司令您费心了。”
 
-   Someone behind Deputy Commander Zheng whispered a few words in his ear. He laughed and turned to the major general and said, "I heard that in September, a group of people from your place will be discharged from the army and change jobs?" "Don't be in a hurry to leave the army, let them come Our military region will stay for another two years. At that time, I will promote them to two levels, and it will be good for them to change jobs. What do you think?" The major general smiled and said without hesitation, "No problem, they will rely on Commander Zheng, please worry about it."
+   Someone behind Deputy Commander Zheng whispered a few words in his ear. He laughed and turned to the major general and said, "I heard that in September, a group of people from your place will be discharged from the army and change jobs?" "Don't be in a hurry to leave the army, let them come our military region and stay for another two years. At that time, I will promote them to two levels, and it will be good for them to change jobs. What do you think?" The major general smiled and said without hesitation, "No problem, they will rely on Commander Zheng, please worry about it."
 
    FastSpeech 2: <audio controls><source src="./wavs/fs2/p02.wav" type="audio/wav"></audio>  
    
@@ -104,4 +104,35 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
    
    Proposed:&ensp;&ensp;&ensp;     <audio controls><source src="./wavs/proposed/p03.wav" type="audio/wav"></audio>     
    
+
+## Analysis for the pre-training strategy
+
+<img src="./wavs/tsne.png" width="60%">
+
+In order to further verify whether the pre-training strategy is helpful for extracting style-related representations, we also do a style transfer experiment. Specifically, we add the style embedding extracted from the pre-trained style extractor as a style condition to the phoneme encoder output of FastSpeech 2 for training. In the inference stage, we change the style conditions of different style categories to see whether the style of synthesized audio changes.
+
+1. transfer a happy style to a sad style
+
+   text: 瞧这货，蠢萌的样子真让人喜欢呢。
+
+   Look at this guy, he is so cute and I really like him.
+
+   | text + original happy style condition  | text + transfered sad style condition |
+   |:---------------------------------------|:--------------------------------------|
+   |<audio controls><source src="./wavs/style_transfer/1-happy.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/style_transfer/1-sad.wav" type="audio/wav"></audio> |
+
+3. transfer a sad style to a happy style
+
+   text: 听了这个悲伤的故事，我的眼睛湿润了。
+
+   My eyes became moist after I heard this sad story.
+
+   | text + original sad style condition  | text + transfered happy style condition |
+   |:---------------------------------------|:--------------------------------------|
+   |<audio controls><source src="./wavs/style_transfer/2-sad.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/style_transfer/2-happy.wav" type="audio/wav"></audio> |
+
+
+
+
+
    
