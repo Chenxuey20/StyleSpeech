@@ -1,7 +1,7 @@
 
 <center>(Submitted on ICASSP 2024)</center>
 
-**Authors**: *Xueyuan Chen, Xi Wang, Shaofei Zhang, Lei He, Zhiyong Wu, Xixin Wu, Helen Meng*
+<center>**Authors**: *Xueyuan Chen, Xi Wang, Shaofei Zhang, Lei He, Zhiyong Wu, Xixin Wu, Helen Meng*</center>
 
 
 ## 1. Abstract
@@ -94,11 +94,12 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
    
 <br>
 
-## 5. Analysis for the pre-training strategy
-
-<img src="./wavs/tsne.png" width="45%" align=center>
+## 5. Analysis for the pre-training strategy (style transfer experiment)
 
 In order to further verify whether the pre-training strategy is helpful for extracting style-related representations, we also do a **style transfer experiment**. Specifically, we add the style embedding extracted from the pre-trained style extractor as a style condition to the phoneme encoder output of FastSpeech 2 for training. In the inference stage, we change the style conditions of different style categories to see whether the style of synthesized audio changes.
+
+<center><img src="./wavs/tsne.png" width="45%" align=center></center>
+
 
 5.1. **Transfer a happy style to a sad style**
 
@@ -119,6 +120,19 @@ In order to further verify whether the pre-training strategy is helpful for extr
    | Text + <font color=red>Original sad</font> style condition  | Text + <font color=red>Transferred happy</font> style condition |
    |:---------------------------------------:|:--------------------------------------:|
    |<audio controls><source src="./wavs/style_transfer/2-sad.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/style_transfer/2-happy.wav" type="audio/wav"></audio> |
+
+5.3. **Transfer a happy style to a neutral style**
+
+   **Text**: *这个我想去好久了，这个设计师是我一直特别崇拜的。*
+
+   *(I have wanted to go to this place for a long time. This designer is the one I have always admired.)*
+
+   | Text + <font color=red>Original happy</font> style condition  | Text + <font color=red>Transferred neutral</font> style condition |
+   |:---------------------------------------:|:--------------------------------------:|
+   |<audio controls><source src="./wavs/style_transfer/3-happy.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/style_transfer/3-neutral.wav" type="audio/wav"></audio> |
+
+   <br>
+   <br>
 
 
 
