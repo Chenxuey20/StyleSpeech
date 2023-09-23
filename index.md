@@ -21,7 +21,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
    *("Aren't you a woman who was pregnant before?")*
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
-   |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
+   :---------:|:---------:|:--------:
    |<audio controls><source src="./wavs/fs2/01.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/fs2-cadec/01.wav" type="audio/wav"></audio>|<audio controls><source src="./wavs/proposed/01.wav" type="audio/wav"></audio>|
 
 3.2. **Text**：*“你敢说没有？”*
