@@ -98,10 +98,12 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
 In order to further verify whether the pre-training strategy is helpful for extracting style-related representations, we also do a **style transfer experiment**. Specifically, we add the style embedding extracted from the pre-trained style extractor as a style condition to the phoneme encoder output of FastSpeech 2 for training. In the inference stage, we change the style conditions of different style categories to see whether the style of synthesized audio changes.
 
-<center><img src="./wavs/tsne.png" width="45%" align=center></center>
+<center><img src="./wavs/tsne.png" width="49%" align=center></center>
+
+<br>
 
 
-5.1. **Transfer a happy style to a sad style**
+5.1. <b><font size=4>Transfer a happy style to a sad style</font></b>
 
    **Text**: *瞧这货，蠢萌的样子真让人喜欢呢。*
 
@@ -111,7 +113,7 @@ In order to further verify whether the pre-training strategy is helpful for extr
    |:---------------------------------------:|:--------------------------------------:|
    |<audio controls><source src="./wavs/style_transfer/1-happy.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/style_transfer/1-sad.wav" type="audio/wav"></audio> |
 
-5.2. **Transfer a sad style to a happy style**
+5.2. <b><font size=4>Transfer a sad style to a happy style</font></b>
 
    **Text**: *听了这个悲伤的故事，我的眼睛湿润了。*
 
@@ -121,7 +123,7 @@ In order to further verify whether the pre-training strategy is helpful for extr
    |:---------------------------------------:|:--------------------------------------:|
    |<audio controls><source src="./wavs/style_transfer/2-sad.wav" type="audio/wav"></audio> |<audio controls><source src="./wavs/style_transfer/2-happy.wav" type="audio/wav"></audio> |
 
-5.3. **Transfer a happy style to a neutral style**
+5.3. <b><font size=4>Transfer a happy style to a neutral style</font></b>
 
    **Text**: *这个我想去好久了，这个设计师是我一直特别崇拜的。*
 
