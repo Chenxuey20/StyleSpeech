@@ -30,7 +30,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/02.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/02.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/02.wav" type="audio/wav"></audio>|
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/02.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/02.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/02.wav" type="audio/wav"></audio>|
    
 3.3. **Text**：*“没有事情就不能给你打电话？”*
 
@@ -38,7 +38,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/03.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/03.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/03.wav" type="audio/wav"></audio>|
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/03.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/03.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/03.wav" type="audio/wav"></audio>|
    
 3.4. **Text**：*“丫头,你以前不是……”*
 
@@ -46,7 +46,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/04.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/04.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/04.wav" type="audio/wav"></audio>|
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/04.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/04.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/04.wav" type="audio/wav"></audio>|
    
 3.5. **Text**：*“紧张吗？”*
 
@@ -54,7 +54,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/05.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/05.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/05.wav" type="audio/wav"></audio>|
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/05.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/05.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/05.wav" type="audio/wav"></audio>|
    
 3.6. **Text**：*“你怎么进来的？”*
 
@@ -62,7 +62,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/06.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/06.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/06.wav" type="audio/wav"></audio>| 
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/06.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/06.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/06.wav" type="audio/wav"></audio>| 
 
 <br>
 
@@ -74,7 +74,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/p01.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/p01.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/p01.wav" type="audio/wav"></audio>|
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/p01.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/p01.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/p01.wav" type="audio/wav"></audio>|
    
 4.2. **Text**：*郑副司令身后有人在他耳边耳语了几句,他听了呵呵一笑,转身对少将说，“听说九月份, 你那儿有一批人要退伍转业?”“先别着急退伍,让他们来我们军区再待两年。到时候我给他们提上两级,再转业对他们也有好处。你看看怎么样?” 少将听了微微一笑,没有丝毫犹豫就说，“没问题,他们就靠郑司令您费心了。”*
 
@@ -82,7 +82,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/p02.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/p02.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/p02.wav" type="audio/wav"></audio>|
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/p02.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/p02.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/p02.wav" type="audio/wav"></audio>|
    
 4.3. **Text**：*“所以你就不要白费力气了,如果现在就动身赶路的话,或许只需损失三十年的寿元,就能找到解毒的帮手…” “你会有这么好心?” 加刑天冷然道,以他的速度,全开之下,自然不是虚弱中的毒娘子能追上的。毕竟,阎罗散的效果虽然诡异,但也只是对如今的加刑天有效,若面对的是一位斗宗强者,那么毒娘子绝对是连逃跑的机会都不会有的。所以,她本就是作为弃子,被蝎毕岩抛出来的。*
 
@@ -90,7 +90,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
    | FastSpeech 2  | FS2-CADEC | Proposed |
    |:---------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-   |<audio controls style="width: 291px;"><source src="./wavs/fs2/p03.wav" type="audio/wav"></audio> |<audio controls style="width: 291px;"><source src="./wavs/fs2-cadec/p03.wav" type="audio/wav"></audio>|<audio controls style="width: 291px;"><source src="./wavs/proposed/p03.wav" type="audio/wav"></audio>|   
+   |<audio controls style="width: 298px;"><source src="./wavs/fs2/p03.wav" type="audio/wav"></audio> |<audio controls style="width: 298px;"><source src="./wavs/fs2-cadec/p03.wav" type="audio/wav"></audio>|<audio controls style="width: 298px;"><source src="./wavs/proposed/p03.wav" type="audio/wav"></audio>|   
    
 <br>
 
