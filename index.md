@@ -35,9 +35,16 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
     border-right: none;}
 </style>
 
-## 3. Synthesized audio of single sentence
+## 3. Comparison for different systems
 
-3.1. **Text**：*“你难道不是曾经怀孕过的女人吗？”*
+
+- **FastSpeech 2**: Original FastSpeech 2 is implemented as the first baseline method.
+- **FS2-CADEC**: We set an end-to-end TTS model by combining CADEC encoder with FastSpeech 2.
+- **StyleSpeech**: Our proposed style enhancing model.
+
+### 3.1. Synthesized audio of single sentence
+
+3.1.1. **Text**：*“你难道不是曾经怀孕过的女人吗？”*
 
    *("Aren't you a woman who was pregnant before?")*
 
@@ -48,7 +55,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -60,7 +67,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
 
-3.2. **Text**：*“你敢说没有？”*
+3.1.2. **Text**：*“你敢说没有？”*
 
    *("How dare you say no?")*
 
@@ -69,7 +76,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -81,7 +88,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
    
-3.3. **Text**：*“没有事情就不能给你打电话？”*
+3.1.3. **Text**：*“没有事情就不能给你打电话？”*
 
    *("Can't I call you if I have nothing to do?")*
 
@@ -90,7 +97,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -102,7 +109,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
    
-3.4. **Text**：*“丫头,你以前不是……”*
+3.1.4. **Text**：*“丫头,你以前不是……”*
 
    *("Girl, you were not...")*
 
@@ -111,7 +118,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -123,7 +130,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
    
-3.5. **Text**：*“紧张吗？”*
+3.1.5. **Text**：*“紧张吗？”*
 
    *("Nervous?")*
 
@@ -132,7 +139,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -144,7 +151,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
    
-3.6. **Text**：*“你怎么进来的？”*
+3.1.6. **Text**：*“你怎么进来的？”*
 
    *("How did you get in here?")*
 
@@ -153,7 +160,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -165,7 +172,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
 
-3.7. **Text**：*“当他不敢把她怎么样是不是？”*
+3.1.7. **Text**：*“当他不敢把她怎么样是不是？”*
 
    *("Do you think he doesn't dare to do anything to her?")*
 
@@ -174,7 +181,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -189,9 +196,9 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 
 <br>
 
-## 4. Synthesized audio of short paragraph
+### 3.2. Synthesized audio of short paragraph
 
-4.1. **Text**：*玄舞还没开口,玄迩就说话了,"姑娘,属下过来时姜公曾有吩咐,说三爷之前曾传了话,若是您今日进城见了田守一,让您想怎么办就怎么办,不必有任何顾忌。" 小暖又问, "你抓住的那几个对守一动刑的畜生呢?" "有两个在属下这里,剩下的在四皇子手中。" 玄迩答道, "因时间仓促,属下还未来得及审问。"*
+3.2.1. **Text**：*玄舞还没开口,玄迩就说话了,"姑娘,属下过来时姜公曾有吩咐,说三爷之前曾传了话,若是您今日进城见了田守一,让您想怎么办就怎么办,不必有任何顾忌。" 小暖又问, "你抓住的那几个对守一动刑的畜生呢?" "有两个在属下这里,剩下的在四皇子手中。" 玄迩答道, "因时间仓促,属下还未来得及审问。"*
 
    *(Before Xuan Wu could say, Xuan Er said, "Girl, when this subordinate came over, Mr. Jiang had given an order, saying that the third master had passed on a message before, if you go to the city today and meet Tian Shouyi, you can do whatever you want, without any scruples." Xiao Nuan asked again, "Where are the brutes that you caught to guard the mob?" "Two of them are here, and the rest are in the hands of the Fourth Prince." Xuan Er replied, "Due to the rush of time, the subordinates have not had time to interrogate.")*
 
@@ -200,7 +207,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -212,7 +219,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
    
-4.2. **Text**：*郑副司令身后有人在他耳边耳语了几句,他听了呵呵一笑,转身对少将说，“听说九月份, 你那儿有一批人要退伍转业?”“先别着急退伍,让他们来我们军区再待两年。到时候我给他们提上两级,再转业对他们也有好处。你看看怎么样?” 少将听了微微一笑,没有丝毫犹豫就说，“没问题,他们就靠郑司令您费心了。”*
+3.2.2. **Text**：*郑副司令身后有人在他耳边耳语了几句,他听了呵呵一笑,转身对少将说，“听说九月份, 你那儿有一批人要退伍转业?”“先别着急退伍,让他们来我们军区再待两年。到时候我给他们提上两级,再转业对他们也有好处。你看看怎么样?” 少将听了微微一笑,没有丝毫犹豫就说，“没问题,他们就靠郑司令您费心了。”*
 
    *(Someone behind Deputy Commander Zheng whispered a few words in his ear. He laughed and turned to the major general and said, "I heard that in September, a group of people from your place will be discharged from the army and change jobs?" "Don't be in a hurry to leave the army, let them come our military region and stay for another two years. At that time, I will promote them to two levels, and it will be good for them to change jobs. What do you think?" The major general smiled and said without hesitation, "No problem, they will rely on Commander Zheng, please worry about it.")*
 
@@ -221,7 +228,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -233,7 +240,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
    
-4.3. **Text**：*“所以你就不要白费力气了,如果现在就动身赶路的话,或许只需损失三十年的寿元,就能找到解毒的帮手…” “你会有这么好心?” 加刑天冷然道,以他的速度,全开之下,自然不是虚弱中的毒娘子能追上的。毕竟,阎罗散的效果虽然诡异,但也只是对如今的加刑天有效,若面对的是一位斗宗强者,那么毒娘子绝对是连逃跑的机会都不会有的。所以,她本就是作为弃子,被蝎毕岩抛出来的。*
+3.2.3. **Text**：*“所以你就不要白费力气了,如果现在就动身赶路的话,或许只需损失三十年的寿元,就能找到解毒的帮手…” “你会有这么好心?” 加刑天冷然道,以他的速度,全开之下,自然不是虚弱中的毒娘子能追上的。毕竟,阎罗散的效果虽然诡异,但也只是对如今的加刑天有效,若面对的是一位斗宗强者,那么毒娘子绝对是连逃跑的机会都不会有的。所以,她本就是作为弃子,被蝎毕岩抛出来的。*
 
    *("So don't waste your efforts. If you set off now, you may only need to lose 30 years of lifespan to find a helper to detoxify..." "You will be so kind?" Jia Xingtian said coldly. His speed, at full speed, is naturally not something that the weak Poison Lady can catch up to. After all, although the effect of Yan Luosan is weird, it is only effective against today's Jiaxingtian. If you are facing a strong Douzong, then Poison Lady will definitely not even have the chance to escape. Therefore, she was thrown out by Xie Biyan as an abandoned child.)*
 
@@ -242,7 +249,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <th>FastSpeech 2</th>
     <th>FS2-CADEC</th>
-    <th>Proposed</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
@@ -256,7 +263,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
    
 <br>
 
-## 5. Analysis for the pre-training strategy (style transfer experiment)
+## 4. Analysis for the pre-training strategy (style transfer experiment)
 
 In order to further verify whether the pre-training strategy is helpful for extracting style-related representations, we also do a **style transfer experiment**. Specifically, we add the style embedding extracted from the pre-trained style extractor as a style condition to the phoneme encoder output of FastSpeech 2 for training. In the inference stage, we change the style conditions of different style categories to see whether the style of synthesized audio changes.
 
@@ -281,7 +288,7 @@ In order to further verify whether the pre-training strategy is helpful for extr
 </style>
 
 
-5.1. <b><font size=4>Transfer a happy style to a sad style</font></b>
+4.1. <b><font size=4>Transfer a happy style to a sad style</font></b>
 
    **Text**: *“瞧这货，蠢萌的样子真让人喜欢呢。”*
 
@@ -302,7 +309,7 @@ In order to further verify whether the pre-training strategy is helpful for extr
   </tbody>
 </table>
 
-5.2. <b><font size=4>Transfer a sad style to a happy style</font></b>
+4.2. <b><font size=4>Transfer a sad style to a happy style</font></b>
 
    **Text**: *“听了这个悲伤的故事，我的眼睛湿润了。”*
 
@@ -323,7 +330,7 @@ In order to further verify whether the pre-training strategy is helpful for extr
   </tbody>
 </table>
 
-5.3. <b><font size=4>Transfer a happy style to a neutral style</font></b>
+4.3. <b><font size=4>Transfer a happy style to a neutral style</font></b>
 
    **Text**: *“这个我想去好久了，这个设计师是我一直特别崇拜的。”*
 
@@ -346,23 +353,27 @@ In order to further verify whether the pre-training strategy is helpful for extr
 
 <br>
 
-## 6. Ablation study
+## 5. Ablation study
 
-6.1 **Text**: *“我还没说够呢，你知不知道他那些天对我是什么态度呀？”*
+- **StyleSpeech w/o Style Encoder**: The style encoder is removed and only the phoneme encoder output is fed into the extended variance adaptor.
+- **StyleSpeech w/o Style Decoder**: The style decoder is removed and all the extended variance adaptor outputs are only fed to the phoneme decoder.
+- **StyleSpeech w/o Style Extractor**: The style extractor is removed, which means the style loss is removed during the TTS training stage.
+
+5.1 **Text**: *“我还没说够呢，你知不知道他那些天对我是什么态度呀？”*
 
 *("I haven't said enough yet. Do you know what his attitude was towards me those days?")*
 
 <table class="custom-table">
   <thead>
   <tr>
-    <th>Proposed w/o Style Encoder</th>
-    <th>Proposed w/o Style Decoder</th>
+    <th>StyleSpeech</th>
+    <th>StyleSpeech w/o Style Encoder</th>
   </tr>
   </thead>
   <tbody>
   <tr>
+    <td><audio controls><source src="./wavs/ablation01-04.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation01-01.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/ablation01-02.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -370,14 +381,82 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>Proposed w/o Style Extractor</th>
-    <th>Proposed</th>
+    <th>StyleSpeech w/o Style Decoder</th>
+    <th>StyleSpeech w/o Style Extractor</th>
   </tr>
   </thead>
   <tbody>
   <tr>
+    <td><audio controls><source src="./wavs/ablation01-02.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation01-03.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/ablation01-04.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+5.2 **Text**：*“你难道不是曾经怀孕过的女人吗？”*
+
+   *("Aren't you a woman who was pregnant before?")*
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>StyleSpeech</th>
+    <th>StyleSpeech w/o Style Encoder</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/ablation02-04.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation02-01.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>StyleSpeech w/o Style Decoder</th>
+    <th>StyleSpeech w/o Style Extractor</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/ablation02-02.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation02-03.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+5.3 **Text**：*“大公子就这么怕老侯爷？”*
+
+   *("Is the eldest son so afraid of the old prince?")*
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>StyleSpeech</th>
+    <th>StyleSpeech w/o Style Encoder</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/ablation03-04.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation03-01.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>StyleSpeech w/o Style Decoder</th>
+    <th>StyleSpeech w/o Style Extractor</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/ablation03-02.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation03-03.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
