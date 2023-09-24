@@ -14,6 +14,161 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
 <img src="./wavs/model_architecture.png" width="100%">
 
 
+<style>
+  .custom-table {
+    border-collapse: collapse;
+    width: 100%;}
+  .custom-table tr:first-child, .custom-table th:first-child {
+    border-top: none;}
+  .custom-table tr:first-child, .custom-table th:nth-child(2) {
+    border-top: none;}
+  .custom-table tr:first-child, .custom-table th:last-child {
+    border-top: none;}
+  .custom-table th:first-child, .custom-table td:first-child {
+    border-left: none;
+    border-right: none;}
+  .custom-table th:nth-child(2), .custom-table td:nth-child(2) {
+    border-left: none;
+    border-right: none;}
+  .custom-table th:last-child, .custom-table td:last-child {
+    border-left: none;
+    border-right: none;}
+</style>
+
+## 3. Synthesized audio of single sentence
+
+3.1. **Text**：*“你难道不是曾经怀孕过的女人吗？”*
+
+   *("Aren't you a woman who was pregnant before?")*
+
+   <style> td, th {boeder: none!important;} </style>
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/01.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+3.2. **Text**：*“你敢说没有？”*
+
+   *("How dare you say no?")*
+
+   <table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/02.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/02.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/02.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+   
+3.3. **Text**：*“没有事情就不能给你打电话？”*
+
+   *("Can't I call you if I have nothing to do?")*
+
+   <table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/03.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+   
+3.4. **Text**：*“丫头,你以前不是……”*
+
+   *("Girl, you were not...")*
+
+   <table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/04.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/04.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/04.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+   
+3.5. **Text**：*“紧张吗？”*
+
+   *("Nervous?")*
+
+   <table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/05.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/05.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/05.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+   
+3.6. **Text**：*“你怎么进来的？”*
+
+   *("How did you get in here?")*
+
+   <table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/06.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/06.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/06.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+
+
 ## 3. Synthesized audio of single sentence
 
 3.1. **Text**：*“你难道不是曾经怀孕过的女人吗？”*
