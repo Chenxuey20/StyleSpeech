@@ -165,6 +165,28 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </tbody>
 </table>
 
+3.7. **Text**：*“当他不敢把她怎么样是不是？”*
+
+   *("Do you think he doesn't dare to do anything to her?")*
+
+   <table class="custom-table">
+  <thead>
+  <tr>
+    <th>FastSpeech 2</th>
+    <th>FS2-CADEC</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/fs2/07.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/07.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/07.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+
 <br>
 
 ## 4. Synthesized audio of short paragraph
