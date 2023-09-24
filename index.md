@@ -366,14 +366,14 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>StyleSpeech</th>
     <th>StyleSpeech w/o Style Encoder</th>
+    <th>StyleSpeech w/o Style Decoder</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/ablation01-04.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation01-01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation01-02.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -381,14 +381,14 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>StyleSpeech w/o Style Decoder</th>
     <th>StyleSpeech w/o Style Extractor</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/ablation01-02.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation01-03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation01-04.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -400,14 +400,14 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>StyleSpeech</th>
     <th>StyleSpeech w/o Style Encoder</th>
+    <th>StyleSpeech w/o Style Decoder</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/ablation02-04.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation02-01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation02-02.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -415,14 +415,14 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>StyleSpeech w/o Style Decoder</th>
     <th>StyleSpeech w/o Style Extractor</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/ablation02-02.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation02-03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation02-04.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -434,14 +434,14 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>StyleSpeech</th>
     <th>StyleSpeech w/o Style Encoder</th>
+    <th>StyleSpeech w/o Style Decoder</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/ablation03-04.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation03-01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation03-02.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -449,14 +449,14 @@ In order to further verify whether the pre-training strategy is helpful for extr
 <table class="custom-table">
   <thead>
   <tr>
-    <th>StyleSpeech w/o Style Decoder</th>
     <th>StyleSpeech w/o Style Extractor</th>
+    <th>StyleSpeech</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/ablation03-02.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/ablation03-03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation03-04.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
