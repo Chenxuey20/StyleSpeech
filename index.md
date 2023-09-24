@@ -283,9 +283,9 @@ In order to further verify whether the pre-training strategy is helpful for extr
 
 5.1. <b><font size=4>Transfer a happy style to a sad style</font></b>
 
-   **Text**: *瞧这货，蠢萌的样子真让人喜欢呢。*
+   **Text**: *“瞧这货，蠢萌的样子真让人喜欢呢。”*
 
-   *(Look at this guy, he is so cute and I really like him.)*
+   *("Look at this guy, he is so cute and I really like him.")*
 
 <table class="custom-table">
   <thead>
@@ -304,9 +304,9 @@ In order to further verify whether the pre-training strategy is helpful for extr
 
 5.2. <b><font size=4>Transfer a sad style to a happy style</font></b>
 
-   **Text**: *听了这个悲伤的故事，我的眼睛湿润了。*
+   **Text**: *“听了这个悲伤的故事，我的眼睛湿润了。”*
 
-   *(My eyes became moist after I heard this sad story.)*
+   *("My eyes became moist after I heard this sad story.")*
 
 <table class="custom-table">
   <thead>
@@ -325,9 +325,9 @@ In order to further verify whether the pre-training strategy is helpful for extr
 
 5.3. <b><font size=4>Transfer a happy style to a neutral style</font></b>
 
-   **Text**: *这个我想去好久了，这个设计师是我一直特别崇拜的。*
+   **Text**: *“这个我想去好久了，这个设计师是我一直特别崇拜的。”*
 
-   *(I have wanted to go to this place for a long time. This designer is the one I have always admired.)*
+   *("I have wanted to go to this place for a long time. This designer is the one I have always admired.")*
 
 <table class="custom-table">
   <thead>
@@ -343,6 +343,46 @@ In order to further verify whether the pre-training strategy is helpful for extr
   </tr>
   </tbody>
 </table>
+
+<br>
+
+## 6. Ablation study
+
+6.1 **Text**: *“我还没说够呢，你知不知道他那些天对我是什么态度呀？”*
+
+*("I haven't said enough yet. Do you know what his attitude was towards me those days?")*
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>Proposed w/o Style Encoder</th>
+    <th>Proposed w/o Style Decoder</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/ablation01-01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation01-02.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+<table class="custom-table">
+  <thead>
+  <tr>
+    <th>Proposed w/o Style Extractor</th>
+    <th>Proposed</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><audio controls><source src="./wavs/ablation01-03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/ablation01-04.wav" type="audio/wav"></audio></td>
+  </tr>
+  </tbody>
+</table>
+
+
 
    <br>
    <br>
