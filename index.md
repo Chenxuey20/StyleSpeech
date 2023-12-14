@@ -212,9 +212,9 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/fs2/p01.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/fs2-cadec/p01.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/proposed/p01.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2/sil1s_fs2_1015.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/sil1s_fs2-cse_1015.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/sil1s_proposed_1015.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
@@ -233,16 +233,16 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/fs2/p02.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/fs2-cadec/p02.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/proposed/p02.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2/sil1s_fs2_1021.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/sil1s_fs2-cse_1021.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/sil1s_proposed_1021.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table>
    
-3.2.3. **Text**：*“所以你就不要白费力气了,如果现在就动身赶路的话,或许只需损失三十年的寿元,就能找到解毒的帮手…” “你会有这么好心?” 加刑天冷然道,以他的速度,全开之下,自然不是虚弱中的毒娘子能追上的。毕竟,阎罗散的效果虽然诡异,但也只是对如今的加刑天有效,若面对的是一位斗宗强者,那么毒娘子绝对是连逃跑的机会都不会有的。所以,她本就是作为弃子,被蝎毕岩抛出来的。*
+3.2.3. **Text**：*“所以你就不要白费力气了,如果现在就动身赶路的话,或许只需损失三十年的寿元,就能找到解毒的帮手…” “你会有这么好心?” 加刑天冷然道,以他的速度,全开之下,自然不是虚弱中的毒娘子能追上的。毕竟,阎罗散的效果虽然诡异,但也只是对如今的加刑天有效,若面对的是一位斗宗强者,那么毒娘子绝对是连逃跑的机会都不会有的。*
 
-   *("So don't waste your efforts. If you set off now, you may only need to lose 30 years of lifespan to find a helper to detoxify..." "You will be so kind?" Jia Xingtian said coldly. His speed, at full speed, is naturally not something that the weak Poison Lady can catch up to. After all, although the effect of Yan Luosan is weird, it is only effective against today's Jiaxingtian. If you are facing a strong Douzong, then Poison Lady will definitely not even have the chance to escape. Therefore, she was thrown out by Xie Biyan as an abandoned child.)*
+   *("So don't waste your efforts. If you set off now, you may only need to lose 30 years of lifespan to find a helper to detoxify..." "You will be so kind?" Jia Xingtian said coldly. His speed, at full speed, is naturally not something that the weak Poison Lady can catch up to. After all, although the effect of Yan Luosan is weird, it is only effective against today's Jiaxingtian. If you are facing a strong Douzong, then Poison Lady will definitely not even have the chance to escape.)*
 
 <table class="custom-table">
   <thead>
@@ -254,9 +254,9 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   </thead>
   <tbody>
   <tr>
-    <td><audio controls><source src="./wavs/fs2/p03.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/fs2-cadec/p03.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/proposed/p03.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2/sil1s_fs2_1017.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/fs2-cadec/sil1s_fs2-cse_1017.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/sil1s_proposed_1021.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table> 
