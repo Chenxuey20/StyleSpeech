@@ -256,7 +256,7 @@ The expressive quality of synthesized speech for audiobooks is limited by genera
   <tr>
     <td><audio controls><source src="./wavs/fs2/sil1s_fs2_1017.wav" type="audio/wav"></audio></td>
     <td><audio controls><source src="./wavs/fs2-cadec/sil1s_fs2-cse_1017.wav" type="audio/wav"></audio></td>
-    <td><audio controls><source src="./wavs/proposed/sil1s_proposed_1021.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="./wavs/proposed/sil1s_proposed_1017.wav" type="audio/wav"></audio></td>
   </tr>
   </tbody>
 </table> 
